@@ -1,0 +1,59 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles with background image */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('img11.jpg'); /* Replace 'background-image.jpg' with your image file */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container styles */
+.container {
+    text-align: center;
+}
+
+/* Heading styles */
+h1 {
+    color: #7a1414; /* Heading color */
+    font-size: 85px; /* Heading font size */
+    margin-bottom: 20px;
+    top: 200px;
+}
+
+/* Button styles */
+button {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 15px 30px; /* Button padding */
+    font-size: 24px; /* Button font size */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Button background color on hover */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 36px; /* Adjust heading font size for smaller screens */
+    }
+
+    button {
+        font-size: 20px; /* Adjust button font size for smaller screens */
+        padding: 12px 24px; /* Adjust button padding for smaller screens */
+    }
+}
